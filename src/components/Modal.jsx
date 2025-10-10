@@ -12,7 +12,7 @@ const ModalHome = ()=>{
     return (
       
     <>
-      <Button variant="dark" onClick={handleShow}>
+      <Button variant="dark" onClick={handleShow} className="mb-2">
         En savoir plus
       </Button>
 
