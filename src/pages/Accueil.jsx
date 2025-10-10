@@ -1,5 +1,5 @@
 import "../App.css";
-import { Container, Card, Col, Row, Image, ProgressBar } from "react-bootstrap";
+import { Container, Card, Image, ProgressBar } from "react-bootstrap";
 import Hero from "../components/Hero";
 import JDoe from "../assets/img/john-doe-about.jpg";
 
