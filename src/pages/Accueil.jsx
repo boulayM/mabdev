@@ -12,8 +12,6 @@ const Accueil = ()=>{
         <Hero />
         <Container className="mt-4 mb-4">
             <Card className="mb-4 cardBox">
-                <Row className="text-start box">
-                    <Col>
                         <h4 className="fw-bold">A Propos</h4>
                         <hr className="border border-primary border-2 opacity-100 mb-5"/>
                         <Image src={JDoe} fluid title="John Doe" alt="John Doe"/>
@@ -32,10 +30,9 @@ const Accueil = ()=>{
                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                             consequat.  
                         </p>
+</Card>
+            <Card className="mb-4 cardBox">
 
-                    </Col>
-
-                    <Col>
                         <h4 className="fw-bold">Mes compétences</h4>
                         <hr className="border border-primary border-2 opacity-100 mb-5"/>
                         <h5 className="text-uppercase">html 90%</h5>
@@ -48,10 +45,7 @@ const Accueil = ()=>{
                         <ProgressBar variant="success" now={60} className="mb-4"/>
                         <h5 className="text-uppercase">react 50%</h5>
                         <ProgressBar variant="primary" now={50} className="mb-4"/>
-                    </Col>
-                </Row>
             </Card>
-
         </Container>
         </>
     )
