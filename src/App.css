@@ -20,11 +20,10 @@ html {
   background-image: url("./assets/img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 2em;
   opacity: 0.8;
-  margin-top: 1em;
 }
 .hero-txt {
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;

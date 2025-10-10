@@ -35,7 +35,6 @@ export default function App () {
                             src="/mabdev.png"
                             className="d-inline-block align-top pr-3"
                             />
-                            <span className="ms-4 text-secondary">Marc Alexandre Boulay, Développeur Web</span>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">
