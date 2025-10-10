@@ -12,9 +12,11 @@ const ModalHome = ()=>{
     return (
       
     <>
-      <Button variant="dark" onClick={handleShow} className="mb-2">
+    <div className="pb-2">
+      <Button variant="dark" onClick={handleShow}>
         En savoir plus
       </Button>
+    </div>
 
       <Modal show={show} onHide={handleClose} centered>
         <Modal.Header className = "bg-dark text-light" closeButton  data-bs-theme = "dark">

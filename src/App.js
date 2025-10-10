@@ -27,7 +27,7 @@ export default function App () {
     return (
         <div>
             <header>
-                <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" fixed="top">
+                <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" fixed="top" className="mb-4">
                     <Container>
                         <Navbar.Brand href="/">
                             <img
