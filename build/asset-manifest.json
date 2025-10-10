@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bf29eca8.css",
+    "main.js": "/portfolio/static/js/main.59f145fd.js",
+    "static/js/453.9ebd3a4b.chunk.js": "/portfolio/static/js/453.9ebd3a4b.chunk.js",
+    "static/media/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf": "/portfolio/static/media/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.7f24c0208b4b0e7af738.ttf",
+    "static/media/vertopal.com_NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.woff": "/portfolio/static/media/vertopal.com_NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.d6e730a792d805f638fe.woff",
+    "static/media/hero-bg.jpg": "/portfolio/static/media/hero-bg.c6eadd9e6a96b94b8a08.jpg",
+    "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/banner.jpg": "/portfolio/static/media/banner.55f7c897ddbeb816abb9.jpg",
+    "static/media/WordPress-Emblem.png": "/portfolio/static/media/WordPress-Emblem.d87bac3ad718ff76e30b.png",
+    "static/media/john-doe-about.jpg": "/portfolio/static/media/john-doe-about.07bb2b3f66fb2530c208.jpg",
+    "static/media/express.png": "/portfolio/static/media/express.6900349ce3710b3f15fd.png",
+    "static/media/html-css.jpg": "/portfolio/static/media/html-css.df8aa63d46717227a26e.jpg",
+    "static/media/figma-tta.jpg": "/portfolio/static/media/figma-tta.c068f400f98916313ebf.jpg",
+    "static/media/klaxon.jpg": "/portfolio/static/media/klaxon.83da51aca2033a63ca96.jpg",
+    "static/media/artisans.jpg": "/portfolio/static/media/artisans.3d9cdbaa6b1529652d37.jpg",
+    "static/media/apiexpress.jpg": "/portfolio/static/media/apiexpress.b08178e5d49e3473dd7c.jpg",
+    "static/media/wpress.jpg": "/portfolio/static/media/wpress.4c71e8f52a9330b0fec5.jpg",
+    "static/media/Figma.jpeg": "/portfolio/static/media/Figma.a13cfbb0ec89acc776a1.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.bf29eca8.css.map": "/portfolio/static/css/main.bf29eca8.css.map",
+    "main.59f145fd.js.map": "/portfolio/static/js/main.59f145fd.js.map",
+    "453.9ebd3a4b.chunk.js.map": "/portfolio/static/js/453.9ebd3a4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf29eca8.css",
+    "static/js/main.59f145fd.js"
+  ]
+}

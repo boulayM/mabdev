@@ -1,0 +1,125 @@
+@font-face {
+  font-family: NunitoSans;
+  src: url(./assets/fonts/vertopal.com_NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.woff);
+  src: url(./assets/fonts/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format(truetype);
+}
+
+html {
+  font-family: NunitoSans, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.hero {
+  background-image: url("./assets/img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.hero-txt {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Nunito sans, sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.cardBox {
+  display: flex;
+  padding: 24px;
+  gap: 24px;
+  justify-content: center;
+  box-shadow: 0px 5px 5px 3px rgba(6, 6, 6, 0.1);
+  box-sizing: border-box;
+}
+.box {
+  position: relative;
+  overflow: hidden;
+  width: 100%;  
+}
+.serv {
+  align-items: center;
+  padding-top: 24px;
+}
+.AppCard {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.CardRow {
+min-width: 30%;
+}
+#cards {
+  width: 30%;
+}
+.card:hover {
+  background-color: #efefef;
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.29));
+}
+.card.cardBox {
+  pointer-events: none;
+}
+.CardText {
+  font-family: Arial Narrow, sans-serif;
+  font-weight: 500;
+}
+.AppModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.icone {
+  opacity: 0.6;
+}
+.icone:hover {
+  opacity: 1;
+}
+#modalContainer {
+  display: flex;
+}
+.modalDiv {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  box-sizing: border-box;
+  padding-right: 1em;
+}
+.modalDiv2 {
+  width: 50%;
+}
+.colFooter {
+  width: 30%;
+}
+.linkFooter:hover {
+  font-weight: bold;
+}
+.linkText {
+  font-style: normal;
+}
+.btn.btn-portfolio:hover {
+  background-color: #3885f9;
+  border-color: #3885f9;
+}
+.photo {
+  border-radius: 50%;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.29);
+}
+.cardtitleBox {
+  padding: 0.6em;
+  background-color: rgb(56, 59, 66);
+}
+.disabledLink {
+  pointer-events: none;
+  opacity: 0.6;
+}
