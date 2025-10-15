@@ -28,7 +28,7 @@ function ContactForm() {
     <Form ref={form} onSubmit={sendEmail}>
         <Form.Control type='text' placeholder="Votre nom" className="mb-2" name='name' required/>
         <Form.Control type="email" placeholder="Votre adresse email" aria-describedby="votre adresse email" className="mb-2" name='email' required/>
-        <Form.Control type="phone" placeholder="Votre numéro de téléphone" aria-describedby="Votre numéro de téléphone" className="mb-2" name='phone' required/>
+        <Form.Control type="phone" placeholder="Votre numéro de téléphone" aria-describedby="Votre numéro de téléphone" className="mb-2" name='phone'/>
         <Form.Control placeholder="Sujet" aria-describedby="sujet" className="mb-2" name='subject' required/>
         <Form.Control as="textarea" placeholder="Votre message" aria-describedby="votre message" rows={15} className="mb-2" name='message' required/>
         <div class="d-grid justify-content-center">

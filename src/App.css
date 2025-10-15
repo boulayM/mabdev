@@ -39,7 +39,6 @@ html {
 .cardBox {
   display: flex;
   padding: 24px;
-  gap: 24px;
   justify-content: center;
   box-shadow: 0px 5px 5px 3px rgba(6, 6, 6, 0.1);
   box-sizing: border-box;
@@ -57,6 +56,7 @@ html {
   white-space: nowrap;
   overflow: hidden;
 }
+
 .CardRow {
 min-width: 30%;
 }
@@ -73,6 +73,7 @@ min-width: 30%;
 .CardText {
   font-family: Arial Narrow, sans-serif;
   font-weight: 500;
+  white-space: "pre-line";
 }
 .AppModal {
   display: flex;
@@ -102,6 +103,7 @@ min-width: 30%;
 .colFooter {
   width: 30%;
 }
+
 .linkFooter:hover {
   font-weight: bold;
 }
@@ -123,4 +125,34 @@ min-width: 30%;
 .disabledLink {
   pointer-events: none;
   opacity: 0.6;
+}
+
+.servicesBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  width: 20%;
+  border-right: 1px solid grey;
+}
+
+.servicesContainer {
+  display: flex;
+}
+
+.servicesCard {
+  pointer-events: none;
+}
+
+.servicesText {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  width: 80%;
+}
+
+.footerLink {
+  color: white;
+  text-decoration: none;
 }
