@@ -1,6 +1,6 @@
 import "../App.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Banner from "../assets/img/banner.jpg"
+import Banner from "../assets/img/banner-portfolio.jpg"
 import CardsPortfolio from "../components/CardsPortfolio";
 
 export default function Realisations () {
@@ -16,7 +16,7 @@ export default function Realisations () {
                 <Col></Col>     
             </Row>
       </Container>
-            <CardsPortfolio/>
+      <CardsPortfolio/>
 
   </div>
 

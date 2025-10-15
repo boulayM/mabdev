@@ -1,5 +1,5 @@
 import "../App.css";
-import { Container, Card, Col, Row } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import ContactForm from "../components/ContactForm";
 import Coord from "../components/Coordonnees";
 
