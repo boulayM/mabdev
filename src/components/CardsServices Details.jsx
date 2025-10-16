@@ -27,11 +27,11 @@ const services = [
     {
         image: REACT,
         name: "React",
-        description: "Construire une SPA\nMettre en place un routage\nRendre l’App responsive à l’aide de Bootstrap\nInteragir avec le back end"
+        description: "Construire une SPA\nMettre en place un routage\nRendre l’App responsive à l’aide de Bootstrap\nInteragir avec une API"
     },
     {   image: EXPRESS,
         name: "Node Express",
-        description: "Créer un site interactif\nIntégrer les parties Front End et Back End\nCommuniquer avec une base de données\nSécuriser les points d’entrée de l’application\nCréer des comptes utilisateurs"
+        description: "Créer une API\nMettre en place une interface utilisateur\nCommuniquer avec une base de données\nCréer des comptes utilisateurs"
     },
     {   image: SQL,
         name: "SQL",
@@ -39,7 +39,7 @@ const services = [
     },
     {   image: PHP,
         name: "PHP",
-        description: "Créer un site interactif\nIntégrer les parties Front End et Back End\nCommuniquer avec une base de données\nSécuriser les points d’entrée de l’application\nCréer des comptes utilisateurs"
+        description: "Créer un site interactif\nIntégrer les parties Front End et Back End\nCommuniquer avec une base de données\nSécuriser les points d’entrée de l’application\nGérer les sessions utilisateurs"
     }
 ];
 
