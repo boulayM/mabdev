@@ -10,6 +10,7 @@ import ReactExpress from "../assets/img/portfolio/logos/react-boots-express.png"
 import phpsql from "../assets/img/portfolio/logos/php-sql.png";
 import wpressLogo from "../assets/img/portfolio/logos/WordPress-Emblem.png";
 import mongoexpress from "../assets/img/portfolio/logos/mongoexpress.png";
+import pdf from "../assets/docs/prototypes.pdf";
 
 const job = [
     
@@ -23,7 +24,8 @@ const job = [
         linkbutton: "https://mabdev.alwaysdata.net/html/",
         linkEnabled: "link-dark text-decoration-none",
         linkgithub: "https://github.com/boulayM/htmlcss.git",
-        device: "seulement sur PC"
+        device: "seulement sur PC",
+        deviceButton: "btn-portfolio prevent-mobile"
     },
 
     {
@@ -33,10 +35,12 @@ const job = [
         tool: "Realisé avec Figma",
         tool_img: figma,
         alt: "schema maquette",
-        linkbutton: "https://www.figma.com/proto/OLFcDsDWZdD4eE9z6yzGRA/Trouve-ton-artisan?node-id=5-206&p=f&t=C3iCVYohfvkTwzP9-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A205&starting-point-node-id=5-206",
+        linkbutton: pdf,
         linkgithub: "http://github.com",
         linkEnabled: "link-dark text-decoration-none disabledLink",
-        device: "PC, Tablette et Mobile"
+        device: "PC, Tablette et Mobile",
+        deviceButton: "btn-portfolio"
+
 
     },
 
@@ -51,7 +55,9 @@ const job = [
         linkgithub: "https://github.com/boulayM/API-PP-Russel.git",
         linkEnabled: "link-dark text-decoration-none",
         user: "user@pprussel - 123",
-        device: "seulement sur PC"
+        device: "seulement sur PC",        
+        deviceButton: "btn-portfolio prevent-mobile"
+
     },
 
     {
@@ -64,7 +70,9 @@ const job = [
         linkbutton: "https://site-artsans.onrender.com",
         linkgithub: "https://github.com/boulayM/ProjetTTA.git",
         linkEnabled: "link-dark text-decoration-none",
-        device: "PC, Tablette et Mobile"
+        device: "PC, Tablette et Mobile",         
+        deviceButton: "btn-portfolio"
+
     },
 
     {
@@ -77,7 +85,8 @@ const job = [
         linkbutton: "https://mabdev.alwaysdata.net/klaxon/templates/accueil.php",
         linkgithub: "https://github.com/boulayM/Klaxon-correction.git",
         linkEnabled: "link-dark text-decoration-none",
-        device: "seulement sur PC",
+        device: "seulement sur PC",         
+        deviceButton: "btn-portfolio prevent-mobile",
         user: "sophie.dubois@email.fr - J*_iIL87/63 (admin)",
         user2: "alexandre.martin@email.fr - 14'14_6&7mN (user)"
  
@@ -93,7 +102,9 @@ const job = [
         linkbutton: "https://mabdev.alwaysdata.net/infographie/",
         linkgithub: "https://github.com/",
         linkEnabled: "link-dark text-decoration-none disabledLink",
-        device: "PC, Tablette et Mobile"
+        device: "PC, Tablette et Mobile",         
+        deviceButton: "btn-portfolio prevent-mobile"
+
     }
 
 ];

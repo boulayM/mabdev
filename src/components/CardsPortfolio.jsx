@@ -1,6 +1,21 @@
 import { Card, Button, Container } from "react-bootstrap";
 import job from "./CardsPortfolioDetails";
 
+document.addEventListener("DOMContentLoaded", function () {
+  const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    const links = document.querySelectorAll("a.prevent-mobile");
+
+    links.forEach(link => {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        alert("Ce site n'est pas accessible sur mobile");
+      });
+    });
+  }
+});
+
 
      export default function CardsPortfolio () {
 
@@ -21,7 +36,7 @@ import job from "./CardsPortfolioDetails";
                 </Card.Text>
                 <Container>
                 <div className="mb-2">
-                <Button href= { job.linkbutton } target="blank" className="btn-portfolio">Voir le site</Button><br></br>
+                <Button href= { job.linkbutton } target="blank" className= {job.deviceButton}>Voir le site</Button><br></br>
                 { job.user ? <small className="text-muted">Login: {job.user}</small> : null }
                 <br></br>
                 { job.user2 ? <small className="text-muted">Login: {job.user2}</small> : null }
