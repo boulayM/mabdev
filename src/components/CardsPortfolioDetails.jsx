@@ -45,7 +45,7 @@ const job = [
     },
 
     {
-        name: "API Express avec views en ejs",
+        name: "API Express",
         image: api,
         description: "API de gestion de réservation de places",
         tool: "Node Express et MongoDB",
