@@ -29,11 +29,11 @@ export default function App () {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ms-auto text-uppercase" variant="underline">
-                                <Nav.Link as={Link} to="/" eventKey="1" id="navHome">Home</Nav.Link>
-                                <Nav.Link as={Link} to="/services" eventKey="2">Services</Nav.Link>
-                                <Nav.Link as={Link} to="/portfolio" eventKey="3">Portfolio</Nav.Link>
-                                <Nav.Link as={Link} to="/contact" eventKey="4">Contact</Nav.Link>
-                                <Nav.Link as={Link} to="/mentionslegales" eventKey="5">Mentions Légales</Nav.Link>
+                                <Nav.Link as={Link} to="/" eventKey="1" id="navHome" onClick={topFunction}>Home</Nav.Link>
+                                <Nav.Link as={Link} to="/services" eventKey="2" onClick={topFunction}>Services</Nav.Link>
+                                <Nav.Link as={Link} to="/portfolio" eventKey="3" onClick={topFunction}>Portfolio</Nav.Link>
+                                <Nav.Link as={Link} to="/contact" eventKey="4" onClick={topFunction}>Contact</Nav.Link>
+                                <Nav.Link as={Link} to="/mentionslegales" eventKey="5" onClick={topFunction}>Mentions Légales</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
