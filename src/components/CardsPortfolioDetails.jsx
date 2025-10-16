@@ -103,7 +103,7 @@ const job = [
         linkgithub: "https://github.com/",
         linkEnabled: "link-dark text-decoration-none disabledLink",
         device: "PC, Tablette et Mobile",         
-        deviceButton: "btn-portfolio prevent-mobile"
+        deviceButton: "btn-portfolio"
 
     }
 
