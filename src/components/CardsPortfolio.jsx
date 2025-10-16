@@ -2,22 +2,10 @@ import { Card, Button, Container } from "react-bootstrap";
 import job from "./CardsPortfolioDetails";
 
 
-     export default function CardsPortfolio () {
+export default function CardsPortfolio () {
 
-        document.addEventListener("DOMContentLoaded", function () {
-  const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  return (
 
-  if (isMobile) {
-    const links = document.getElementsByClassName("btn-portfolio prevent-mobile");
-
-      links.addEventListener("click", function (event) {
-        event.preventDefault();
-        alert("Ce site n'est pas accessible sur mobile");
-      });
-  }
-});
-
-        return (
     <div className="container text-center">
       <div className="row">
         {job.map((job) => (
@@ -34,6 +22,7 @@ import job from "./CardsPortfolioDetails";
                 <Container>
                 <div className="mb-2">
                 <Button href= { job.linkbutton } target="blank" className= {job.deviceButton}>Voir le site</Button><br></br>
+                <script src="../assets/buttonMobile.js"></script>
                 { job.user ? <small className="text-muted">Login: {job.user}</small> : null }
                 <br></br>
                 { job.user2 ? <small className="text-muted">Login: {job.user2}</small> : null }
