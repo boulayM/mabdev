@@ -1,6 +1,6 @@
 import { Card, Button, Container } from "react-bootstrap";
 import job from "./CardsPortfolioDetails";
-
+import preventMobile from "../assets/buttonMobile";
 
 export default function CardsPortfolio () {
 
@@ -21,8 +21,7 @@ export default function CardsPortfolio () {
                 </Card.Text>
                 <Container>
                 <div className="mb-2">
-                <Button href= { job.linkbutton } target="blank" className= {job.deviceButton}>Voir le site</Button><br></br>
-                <script src="../assets/buttonMobile.js"></script>
+                <Button href= { job.linkbutton } target="blank" className="btn-portfolio" onClick={preventMobile}>Voir le site</Button><br></br>
                 { job.user ? <small className="text-muted">Login: {job.user}</small> : null }
                 <br></br>
                 { job.user2 ? <small className="text-muted">Login: {job.user2}</small> : null }
