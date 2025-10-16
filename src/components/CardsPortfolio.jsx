@@ -1,25 +1,22 @@
 import { Card, Button, Container } from "react-bootstrap";
 import job from "./CardsPortfolioDetails";
 
-document.addEventListener("DOMContentLoaded", function () {
-  const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
-  if (isMobile) {
-    const links = document.getElementsByClassName("prevent-mobile");
-
-    links.forEach(link => {
-      link.addEventListener("click", function (event) {
-        event.preventDefault();
-        alert("Ce site n'est pas accessible sur mobile");
-      });
-    });
-  }
-});
-
 
      export default function CardsPortfolio () {
 
-        
+        document.addEventListener("DOMContentLoaded", function () {
+  const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    const links = document.getElementsByClassName("btn-portfolio prevent-mobile");
+
+      links.addEventListener("click", function (event) {
+        event.preventDefault();
+        alert("Ce site n'est pas accessible sur mobile");
+      });
+  }
+});
+
         return (
     <div className="container text-center">
       <div className="row">
