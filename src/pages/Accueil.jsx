@@ -21,11 +21,13 @@ const Accueil = ()=>{
                             les décors pour la télévision et le théâtre. Au début des années 2000 j’ai suivi une formation 
                             dans les logiciels d’édition graphique (CorelDraw, Photoshop, Flash et PageMaker) ce qui m’a permis 
                             de travailler dans le secteur de la publicité puis, à mon compte pendant de longues années, dans le 
-                            marché de l’infographie (feuillets publicitaires, création de logos, programmation visuelle …).  
+                            marché de l’infographie (feuillets publicitaires, création de logos, programmation visuelle …). Maitrise
+                            de photoshop et CorelDraw.
                         </p>
                         <p className="mt-2">
                             Rentré définitivement en France je me lance début 2025 dans une reconversion vers les métiers du numérique
-                             en rejoignant le cours Developpeur Web et Web Mobile (Full Stack) du Centre Européen de Formation.  
+                            en rejoignant le cours Developpeur Web et Web Mobile (Full Stack) du Centre Européen de Formation. À l'écoute
+                            des nouvelles technologies, notament pour ce qui est de l'apport de l'IA dans le développement web. 
                         </p>
                         <p className="mt-2">
                             Je suis actuellement à la recherche d’un stage me permettant de découvrir les routines du métier, développer 
